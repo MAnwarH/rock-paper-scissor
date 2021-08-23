@@ -1,0 +1,41 @@
+/*Extra small devices xs (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .game-hands img {
+    width: 130px;
+  }
+
+  .game-into {
+    bottom: 0%;
+    height: 30vh;
+  }
+  .game-into {
+    margin-top: 5rem;
+  }
+}
+
+/* Small devices sm (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .game-hands img {
+    width: 130px;
+  }
+
+  .game-into {
+    bottom: 0%;
+    height: 30vh;
+  }
+  .game-into {
+    margin-top: 5rem;
+  }
+}
+
+/* Medium devices md (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
